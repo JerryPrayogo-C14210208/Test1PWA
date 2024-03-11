@@ -1,0 +1,86 @@
+.fs-1{
+    font-weight: 900;
+    font-size: 5rem !important;
+}
+
+.fs-2{
+    font-size: 3rem !important;
+}
+
+.tombol {
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 1500px) {
+    .fs-1{
+        font-weight: 900;
+        font-size: 4rem !important;
+    }
+    
+    .fs-2{
+        font-size: 2rem !important;
+    }
+    
+    .tombol{
+        margin-top: 230px;
+    }
+    
+    iframe{
+        width: 800px;
+        height: 400px;
+    
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .fs-1{
+        font-weight: 900;
+        font-size: 4rem !important;
+    }
+    
+    .fs-2{
+        font-size: 2rem !important;
+    }
+    
+    .tombol{
+        margin-top: 100px;
+    }
+
+    .tombol-1{
+        font-size: 30px !important; ;
+    }
+    
+    iframe{
+        width: 800px;
+        height: 400px;
+    
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .fs-1{
+        font-weight: 900;
+        font-size: 4rem !important;
+    }
+    
+    .fs-2{
+        font-size: 1.5rem !important;
+    }
+    
+    .tombol{
+        margin-top: 150px;
+    }
+
+    .tombol-1{
+        font-size: 30px !important; ;
+    }
+    
+    iframe{
+        width: 600px;
+        height: 300px;
+    
+    }
+
+}
