@@ -2,7 +2,7 @@ var cardArea = document.getElementById('workout_card');
 
 function createCard(data){
     let newContent = `
-    <div class="col">
+    <div class="col mb-5">
     <a href="/detail/?id=${data.id}">
         <div class="card mx-auto" >
             
