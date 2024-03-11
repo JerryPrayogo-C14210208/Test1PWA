@@ -19,36 +19,55 @@
     <meta name="msapplication-TileImage" content="/src/images/workout192.png">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#3f51b5">
-    
+    <style>
+      html, body{
+        height: 100%;
+        background-color: #31363F;
+      }
+
+      .btn{
+        background-color: #76ABAE;
+      }
+      .text{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+      }
+      img{
+        width: 200px;
+        height: auto;
+      }
+    </style>
 </head>
 <body>
-    <div class="container-fluid py-3">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <p id="fili">FILI</p></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/about.html">About</a>
-              </li>
-            </ul>
-          </div>
+  <div class="container-fluid h-100">
+    <div class="d-flex h-100 align-items-center justify-content-center">
+      <div class="row row-cols-1">
+        <div class="col d-flex align-items-center justify-content-center">
+          <img src="/src/images/offline.png" alt="offline">
         </div>
-      </nav>
+        <div class="col d-flex align-items-center justify-content-center text">YOU ARE OFFLINE!!!
+        </div>
+        <div class="col d-flex align-items-center justify-content-center text">
+          PLEASE  CONNECT TO THE INTERNET AND RELOAD  THIS WEBSITE!
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <button class="btn btn-secondary" onclick="reloadPage()">Reload Page</button>
+        </div> 
+      </div>
+         
+    </div>
 
-      AWIKWOK OFFLINE
+  </div>
+
+
+  <script>
+  function reloadPage() {
+      // Reload the current page
+      location.reload();
+  }
+  </script>
         
 </body>
-<script src="/src/js/fetch.js"></script>
-<script src="/src/js/app.js"></script>
-<script src="/src/js/idb.js"></script>
-<script src="/src/js/utility.js"></script>
-<script src="/src/js/card.js"></script>
-
 </html>

@@ -10,6 +10,8 @@
     font-size: 30px;
     font-weight: 500;
     color: antiquewhite;
+    transition: font-weight .2s ease-in, filter .2s ease-in;
+
 }
 
 .nav-item:hover{

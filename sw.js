@@ -17,7 +17,8 @@ var STATIC_FILES = [
   '/src/js/idb.js',
   '/src/js/utility.js',
   '/src/images/workout512.png',
-  '/src/images/workout192.png'
+  '/src/images/workout192.png',
+  '/src/images/offline.png'
 ];
 
 self.addEventListener('install', function (event) {
